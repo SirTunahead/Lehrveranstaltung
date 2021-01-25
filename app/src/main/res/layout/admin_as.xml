@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/erstellen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:text="@string/erstellen_btn"
+        android:layout_marginStart="100dp" />
+
+    <Button
+        android:layout_marginLeft="5dp"
+        android:layout_toEndOf="@+id/erstellen"
+        android:id="@+id/bearbeiten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="bearbeiten"
+        android:layout_toRightOf="@+id/erstellen" />
+
+</RelativeLayout>

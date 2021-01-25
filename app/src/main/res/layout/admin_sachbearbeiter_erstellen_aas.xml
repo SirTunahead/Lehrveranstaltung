@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp">
+
+        <fragment
+            android:id="@+id/sachbearbeiter_name_s"
+            android:name="com.example.lehrveranstaltung.SachbearbeiterNameS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        <fragment
+            android:id="@+id/sachbearbeiter_passwort_s"
+            android:name="com.example.lehrveranstaltung.SachbearbeiterPasswortS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/sachbearbeiter_berechtigung_s"
+            android:name="com.example.lehrveranstaltung.SachbearbeiterBerechtigungS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/sachbearbeiter_ok_knopf_s"
+            android:name="com.example.lehrveranstaltung.SachbearbeiterOKKnopfS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</RelativeLayout>
